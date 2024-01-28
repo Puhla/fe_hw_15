@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#addForm{
+    max-width: 700px;
+    border: 2px solid #026956;
+    margin: 40px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #026956;
+}
+
+#addForm input, #addForm button{
+    height: 20px;
+}
+#addForm button{
+    background-color: #026956;
+    color: white;
+}
+#userContainer{
+    max-width: 700px;
+    border: 2px solid #026956;
+    margin: 40px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.marked{
+    border-radius: 50%;
+    background-color: #026956;
+    
+}
+.item{
+    border: 2px solid #026956;
+    padding: 5px; 
+    border-radius: 5px;
+   
+    color: white;
+}
